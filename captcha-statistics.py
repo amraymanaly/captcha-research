@@ -49,12 +49,13 @@ def un_noise(image):
         c = stat(f).st_size
     print('Ran %d linear salt removal(s)!' % modifications)
 
-def save_matrix(matrix, f, width, height):
-    with open(f, 'w') as o:
-        for x in range(0, width):
-            for y in range(0, height):
-                o.write(str(matrix[x,y]) + ' ')
-            o.write('\n')
+# DEBUG STUFF
+# def save_matrix(matrix, f, width, height):
+#     with open(f, 'w') as o:
+#         for x in range(0, width):
+#             for y in range(0, height):
+#                 o.write(str(matrix[x,y]) + ' ')
+#             o.write('\n')
 
 if __name__ == '__main__':
     #s = '/home/amr/captcha-research/captcha.png'

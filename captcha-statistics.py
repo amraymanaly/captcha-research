@@ -3,7 +3,7 @@
 # A Script for simple captcha recognition through recursive statistical improvement
 
 # NOTE: After un-noising an image, u can run tesseract right away,
-# but that would destry the whole statistics idea, right? :)
+# but that would destroy the whole statistics idea, right? :)
 
 import sys
 
